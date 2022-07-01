@@ -1,0 +1,45 @@
+name: covid_info
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.17.1 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  flutter_local_notifications: ^9.6.1
+  r_dart_library: 0.4.0-nullsafety.0
+  intl: ^0.17.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+  - packages/covid_info/assets/images/deaths.png
+  - packages/covid_info/assets/images/distance.png
+  - packages/covid_info/assets/images/hands.svg
+  - packages/covid_info/assets/images/ic_launcher.png
+  - packages/covid_info/assets/images/keep.svg
+  - packages/covid_info/assets/images/mask.png
+  - packages/covid_info/assets/images/newTests.png
+  - packages/covid_info/assets/images/recovered.png
+  - packages/covid_info/assets/images/sick.png
+  - packages/covid_info/assets/images/stay.svg
+  - packages/covid_info/assets/images/tests.png
+  - packages/covid_info/assets/images/wash.png
+  - packages/covid_info/assets/images/wear.svg
+  fonts:
+  - family: CV
+    fonts:
+    - asset: packages/covid_info/assets/fonts/CV/sf-ui-display-bold.otf
+flr:
+  core_version: 3.2.0
+  dartfmt_line_length: 80
+  assets:
+  - lib/assets/images
+  fonts:
+  - lib/assets/fonts
