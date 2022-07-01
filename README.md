@@ -1,16 +1,11 @@
 # covid_info
 
-A new Flutter project.
+A single page mobile app made with flutter to track covid-19 information in sri lanka.
 
-## Getting Started
+API used - https://www.hpb.health.gov.lk/en/api-documentation
 
-This project is a starting point for a Flutter application.
+## UI 
 
-A few resources to get you started if this is your first Flutter project:
+Running app interface
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt text](https://i.postimg.cc/PxGv6zDW/Whats-App-Image-2022-07-01-at-4-51-16-PM.jpg)
